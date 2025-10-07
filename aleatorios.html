@@ -2,16 +2,16 @@
 <html>
 
 <head>
-    <h1 class="titulo"> RETO 41 ARREGLOS sistema de notas </h1>
+    <h1 class="titulo"> INTRODUCCION AL USO DE TABLAS </h1>
     <script src="utilitarios.js"></script>
-    <script src="serviciosEjercicios1.js"></script>
-    <script src="ejercicios1.js"></script>
-    <link rel="stylesheet" href="css_ejercicios1.css" />
+    <script src="serviciosAleatorios.js"></script>
+    <script src="aleatorios.js"></script>
+    <link rel="stylesheet" href="css_aleatorios.css" />
 </head>
 
 <body>
     <div class="contenedorBoton">
-        <h2> Ingrese NOTA o calificacion comprendida entre 1 y 10 : </h2>
+        <h2> Ingrese un numero entre 5 y 20 : </h2>
         <input class="resultado" type="text" id="txtNota" />
     </div>
 
@@ -20,15 +20,13 @@
         <div class="tituloCampo">
             <input class="estiloBoton" type="button" value="AGREGAR NOTA" onclick="agregaNota();" />
             <input class="estiloBoton" type="button" value="CALCULAR PROMEDIO" onclick="calculaPromedio()" />
+            <input class="estiloBoton" type="button" value="ALEATORIO 1-100" onclick="obtieneAleatorio()" />
         </div>
     </div>
     </div>
     <div class="contenidoResultado">
-        <h2>Suma de las Notas Ingresadas</h2>
+        <h2>Numero Aleatorio entre 1 y 100</h2>
         <h2 id="emimi">0</h2>
-        <h2>Promedio </h2>
-        <h2 id="emima">0.00 </h2>
-    </div>
 </body>
 
 </html>
